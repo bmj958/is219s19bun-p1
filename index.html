@@ -1,97 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>MinJoo Bun - Project 1</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
+<html>
+<title>MinJoo Bun</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Introduction of MinJoo Bun</h1>
-                <p class="lead">This site is made to show who I am as a person and what you need to know about me</p>
-                <ul class="list-unstyled">
-                    <li>This Website Will Cover:</li>
-                    <li> // About me  // Experience // Resume // Much more...</li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
-
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#education" class="w3-bar-item w3-button">Education</a>
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#workexperience" class="w3-bar-item w3-button">Work Experience</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
-    <!-- /.container -->
+  </div>
+</div>
 
-    <!-- jQuery Version 3.3.1 -->
-    <script
-        src="http://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="education">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Education</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Union Elementary School, Rutherford, NJ: 2007-2010</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Rutherford High School, Rutherford, NJ: 2010-2014</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">New Jersey Institute of Technology, Newark, NJ: 2014 - Now</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Bergen Community College, Paramus, NJ: Summer 2015</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
+    <p>I was born on August 3rd, 1995 in Seoul, South Korea.
+I have lived in South Korea until December 7th, 2004 and lived in United States forever since then. It was a difficult task learning a whole new language as a kid but I have managed to hold a grasp of it and now I am very fluent in both Korean and English!</p>
+    <p>Currently I live with both of my parents and my little sister in New Jersey for 15 years. I also live with cats named Cookie and Choco.
+    <p>I am a college student (Information Technology) currently attending New Jersey Institute of Technology. During the course of my academic career, I also managed to accrue nearly 6 months of work experience. I had the privilege of working for Verizon Retail Store as a Retailer role in my free time, where I learned valuable professional skills such as conflict resolution, technological support, and customer satisfaction. In both my academic and professional life, I have been consistently praised a diligent worker by my employers and peers. Whether working on academic, extracurricular, or professional projects I apply proven communication, language, and technical skills, which I hope to leverage into the IT Intern role at your company.​I am a college student (Information Technology) currently attending New Jersey Institute of Technology. During the course of my academic career, I also managed to accrue nearly 6 months of work experience. I had the privilege of working for Verizon Retail Store as a Retailer role in my free time, where I learned valuable professional skills such as conflict resolution, technological support, and customer satisfaction. In both my academic and professional life, I have been consistently praised a diligent worker by my employers and peers. Whether working on academic, extracurricular, or professional projects I apply proven communication, language, and technical skills, which I hope to leverage into the IT Intern role at your company.​
+    </p>
+  </div>
+  
+  
+  <div class="w3-container w3-padding-32" id="workexperience">
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Work Experience</h3>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>Verizon Retail Store Employee</h3>
+      <p class="w3-opacity">2017 March - 2017 October</p>
+      <p>225 Broad Ave Suite 110, </p>
+      <p>Palisades Park, NJ 07650 </p>
+      <p>Mon-Sat: 9:30 AM - 8:00 PM </p>
+      <p>(201) 815-1234</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Dentist Assistant</h3>
+      <p>Align Dental Care</p>
+      <p>321 Broad Ave Bdg F5</p>
+      <p>Ridgefield, NJ 07657</p>
+      <p>Tue, Thu: 10:00 AM - 7:00 PM/Sat 10:00 AM - 4:00 PM</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Bakery/Cafe Employee</h3>
+      <p class="w3-opacity">2014 September - 2017 March</p>
+      <p>BB Bakery:</p>
+	  <p>354 Broad Ave,</p>
+	  <p>Leonia, NJ 07605</p>
+	  <p>Open: 6:30 AM - 10:00 PM</p>
+	  <p>(201) 944-1230</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
 </body>
-
 </html>
